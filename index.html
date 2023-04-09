@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Age calculator app</title>
+
+ 
+</head>
+
+
+<body>
+
+  <div class="container">
+  <div class="form-group-container">
+
+    <div class="form-group day-form-group">
+      <label for="">Day</label>
+      <input placeholder="DD" class="date-input" id="day-input" type="text">
+      <p class="input-error-message" id="day-input-error"></p>
+    </div>
+  
+  
+    <div class="form-group month-form-group">
+      <label for="">Month</label>
+      <input placeholder="MM" class="date-input" id="month-input" type="text">
+      <p class="input-error-message" id="month-input-error"></p>
+    </div>
+  
+    <div class="form-group year-form-group">
+      <label for="">Year</label>
+      <input placeholder="YYYY" class="date-input" id="year-input" type="text">
+      <p class="input-error-message" id="year-input-error"></p>
+    </div>
+  
+  </div>
+
+  <div class="divider-element">
+    <div class="divider-img-container" id="img-button">
+      <img src="./assets/images/icon-arrow.svg" alt="">
+    </div>
+  </div>
+<img src="./assets/images/icon-arrow.svg" alt="">
+  <div class="output-container">
+  <p class="output-text"><span class="output-number" id="year-output">--</span> Years</p>
+  <p class="output-text"><span class="output-number" id="month-output">--</span> Months</p>
+  <p class="output-text"><span class="output-number" id="day-output">--</span> Days</p>
+</div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
